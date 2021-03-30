@@ -3,29 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3A86B610260B785A00CDAA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B60F260B785A00CDAA91 /* AppDelegate.swift */; };
 		3A86B612260B785A00CDAA91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B611260B785A00CDAA91 /* SceneDelegate.swift */; };
-		3A86B614260B785A00CDAA91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B613260B785A00CDAA91 /* ViewController.swift */; };
+		3A86B614260B785A00CDAA91 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B613260B785A00CDAA91 /* LaunchViewController.swift */; };
 		3A86B617260B785A00CDAA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A86B615260B785A00CDAA91 /* Main.storyboard */; };
 		3A86B61A260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B618260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodeld */; };
 		3A86B61C260B785E00CDAA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A86B61B260B785E00CDAA91 /* Assets.xcassets */; };
 		3A86B61F260B785E00CDAA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A86B61D260B785E00CDAA91 /* LaunchScreen.storyboard */; };
+		3A86B628260B7CA600CDAA91 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A86B627260B7CA600CDAA91 /* loading.json */; };
+		3A86B63C260B82AC00CDAA91 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B63B260B82AC00CDAA91 /* GeneratorViewController.swift */; };
+		3A86B63F260B82BF00CDAA91 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B63E260B82BF00CDAA91 /* TableViewController.swift */; };
+		3A86B642260B82E300CDAA91 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B641260B82E300CDAA91 /* TableViewCellController.swift */; };
+		3A86B645260B858D00CDAA91 /* RandomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B644260B858D00CDAA91 /* RandomName.swift */; };
+		BD39760EB8EDC4F4AA313275 /* Pods_FantasyNameGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0C3C38E4C03523F2E1D30 /* Pods_FantasyNameGenerator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C0C3C38E4C03523F2E1D30 /* Pods_FantasyNameGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyNameGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C47FDC0CF29C2A21C0C042E /* Pods-FantasyNameGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyNameGenerator.release.xcconfig"; path = "Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator.release.xcconfig"; sourceTree = "<group>"; };
 		3A86B60C260B785A00CDAA91 /* FantasyNameGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyNameGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A86B60F260B785A00CDAA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A86B611260B785A00CDAA91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A86B613260B785A00CDAA91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A86B613260B785A00CDAA91 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		3A86B616260B785A00CDAA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A86B619260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FantasyNameGenerator.xcdatamodel; sourceTree = "<group>"; };
 		3A86B61B260B785E00CDAA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A86B61E260B785E00CDAA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A86B620260B785E00CDAA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A86B627260B7CA600CDAA91 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		3A86B63B260B82AC00CDAA91 /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		3A86B63E260B82BF00CDAA91 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3A86B641260B82E300CDAA91 /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
+		3A86B644260B858D00CDAA91 /* RandomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomName.swift; sourceTree = "<group>"; };
+		775E73FF5900F82AD58D525E /* Pods-FantasyNameGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyNameGenerator.debug.xcconfig"; path = "Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD39760EB8EDC4F4AA313275 /* Pods_FantasyNameGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,8 @@
 			children = (
 				3A86B60E260B785A00CDAA91 /* FantasyNameGenerator */,
 				3A86B60D260B785A00CDAA91 /* Products */,
+				C1A9F73EA2CDC55C9A95D53C /* Pods */,
+				B0AC81B04A898C8B70871C83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +75,62 @@
 		3A86B60E260B785A00CDAA91 /* FantasyNameGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				3A86B635260B808000CDAA91 /* Model */,
+				3A86B636260B808800CDAA91 /* View */,
+				3A86B637260B809400CDAA91 /* Controller */,
 				3A86B60F260B785A00CDAA91 /* AppDelegate.swift */,
 				3A86B611260B785A00CDAA91 /* SceneDelegate.swift */,
-				3A86B613260B785A00CDAA91 /* ViewController.swift */,
-				3A86B615260B785A00CDAA91 /* Main.storyboard */,
+				3A86B627260B7CA600CDAA91 /* loading.json */,
 				3A86B61B260B785E00CDAA91 /* Assets.xcassets */,
-				3A86B61D260B785E00CDAA91 /* LaunchScreen.storyboard */,
 				3A86B620260B785E00CDAA91 /* Info.plist */,
-				3A86B618260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodeld */,
 			);
 			path = FantasyNameGenerator;
+			sourceTree = "<group>";
+		};
+		3A86B635260B808000CDAA91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A86B618260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodeld */,
+				3A86B644260B858D00CDAA91 /* RandomName.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A86B636260B808800CDAA91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A86B615260B785A00CDAA91 /* Main.storyboard */,
+				3A86B61D260B785E00CDAA91 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A86B637260B809400CDAA91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A86B613260B785A00CDAA91 /* LaunchViewController.swift */,
+				3A86B63B260B82AC00CDAA91 /* GeneratorViewController.swift */,
+				3A86B63E260B82BF00CDAA91 /* TableViewController.swift */,
+				3A86B641260B82E300CDAA91 /* TableViewCellController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B0AC81B04A898C8B70871C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C0C3C38E4C03523F2E1D30 /* Pods_FantasyNameGenerator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1A9F73EA2CDC55C9A95D53C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775E73FF5900F82AD58D525E /* Pods-FantasyNameGenerator.debug.xcconfig */,
+				2C47FDC0CF29C2A21C0C042E /* Pods-FantasyNameGenerator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A86B623260B785E00CDAA91 /* Build configuration list for PBXNativeTarget "FantasyNameGenerator" */;
 			buildPhases = (
+				90ACFE592E1AB42AF6E4FD73 /* [CP] Check Pods Manifest.lock */,
 				3A86B608260B785A00CDAA91 /* Sources */,
 				3A86B609260B785A00CDAA91 /* Frameworks */,
 				3A86B60A260B785A00CDAA91 /* Resources */,
+				20B6326079034FD8B69A8EF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A86B628260B7CA600CDAA91 /* loading.json in Resources */,
 				3A86B61F260B785E00CDAA91 /* LaunchScreen.storyboard in Resources */,
 				3A86B61C260B785E00CDAA91 /* Assets.xcassets in Resources */,
 				3A86B617260B785A00CDAA91 /* Main.storyboard in Resources */,
@@ -135,13 +201,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20B6326079034FD8B69A8EF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90ACFE592E1AB42AF6E4FD73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasyNameGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A86B608260B785A00CDAA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A86B614260B785A00CDAA91 /* ViewController.swift in Sources */,
+				3A86B614260B785A00CDAA91 /* LaunchViewController.swift in Sources */,
+				3A86B63F260B82BF00CDAA91 /* TableViewController.swift in Sources */,
+				3A86B63C260B82AC00CDAA91 /* GeneratorViewController.swift in Sources */,
+				3A86B642260B82E300CDAA91 /* TableViewCellController.swift in Sources */,
 				3A86B61A260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodeld in Sources */,
+				3A86B645260B858D00CDAA91 /* RandomName.swift in Sources */,
 				3A86B610260B785A00CDAA91 /* AppDelegate.swift in Sources */,
 				3A86B612260B785A00CDAA91 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +399,14 @@
 		};
 		3A86B624260B785E00CDAA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775E73FF5900F82AD58D525E /* Pods-FantasyNameGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ASQ8749W3L;
 				INFOPLIST_FILE = FantasyNameGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +420,14 @@
 		};
 		3A86B625260B785E00CDAA91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C47FDC0CF29C2A21C0C042E /* Pods-FantasyNameGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ASQ8749W3L;
 				INFOPLIST_FILE = FantasyNameGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
