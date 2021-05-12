@@ -1,5 +1,8 @@
 import Foundation
 //these are the names available
+/*
+ hello my baby, hello my honey
+ */
 struct RandomName{
     
     let fMaleArray = ["Thorak","Gliden", "Figure","Gorbak","Liger","Django", "Ronan","Bilbo","Kumite", "Roddrick", "Alphonse", "Shayne", "Galen", "Kanaan", "Samin", "Yabem", "Asfa", "Estam", "Vicstaer", "Kliff", "Ryu", "Saul", "Johnny", "Joseph", "Julius", "Caesar", "Antony", "Augustus", "Leon", "Barick"]
