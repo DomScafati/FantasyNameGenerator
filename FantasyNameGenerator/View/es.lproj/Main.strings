@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "View Saved"; ObjectID = "QHY-6s-eiG"; */
+"QHY-6s-eiG.normalTitle" = "View Saved";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YSQ-G3-pKk"; */
+"YSQ-G3-pKk.text" = "Label";
+
+/* Class = "UILabel"; text = "the"; ObjectID = "cDS-TB-VhO"; */
+"cDS-TB-VhO.text" = "the";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "evI-0v-fZz"; */
+"evI-0v-fZz.normalTitle" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Neutral Name"; ObjectID = "muR-b3-Qp1"; */
+"muR-b3-Qp1.normalTitle" = "Neutral Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qC8-SC-7Vc"; */
+"qC8-SC-7Vc.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Masculine Name"; ObjectID = "uGJ-5j-iwI"; */
+"uGJ-5j-iwI.normalTitle" = "Masculine Name";
+
+/* Class = "UIButton"; normalTitle = "Feminine Name"; ObjectID = "xlL-5m-Uib"; */
+"xlL-5m-Uib.normalTitle" = "Feminine Name";

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A38CCBE2617A9CC00384C37 /* FantasyNameGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38CCBD2617A9CC00384C37 /* FantasyNameGeneratorTests.swift */; };
 		3A86B610260B785A00CDAA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B60F260B785A00CDAA91 /* AppDelegate.swift */; };
 		3A86B612260B785A00CDAA91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B611260B785A00CDAA91 /* SceneDelegate.swift */; };
 		3A86B614260B785A00CDAA91 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B613260B785A00CDAA91 /* LaunchViewController.swift */; };
@@ -19,12 +20,35 @@
 		3A86B63F260B82BF00CDAA91 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B63E260B82BF00CDAA91 /* TableViewController.swift */; };
 		3A86B642260B82E300CDAA91 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B641260B82E300CDAA91 /* TableViewCellController.swift */; };
 		3A86B645260B858D00CDAA91 /* RandomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B644260B858D00CDAA91 /* RandomName.swift */; };
+		3A875A83264C189500B9D106 /* FantasyNameGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A875A82264C189500B9D106 /* FantasyNameGeneratorUITests.swift */; };
+		3ADDDDB1261CC7B2005AB3FD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDDDB0261CC7B2005AB3FD /* StringExtension.swift */; };
+		3ADDDDBB261CC8FC005AB3FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ADDDDBD261CC8FC005AB3FD /* Localizable.strings */; };
 		BD39760EB8EDC4F4AA313275 /* Pods_FantasyNameGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0C3C38E4C03523F2E1D30 /* Pods_FantasyNameGenerator.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A38CCC02617A9CC00384C37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A86B604260B785A00CDAA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A86B60B260B785A00CDAA91;
+			remoteInfo = FantasyNameGenerator;
+		};
+		3A875A85264C189500B9D106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A86B604260B785A00CDAA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A86B60B260B785A00CDAA91;
+			remoteInfo = FantasyNameGenerator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		27C0C3C38E4C03523F2E1D30 /* Pods_FantasyNameGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyNameGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C47FDC0CF29C2A21C0C042E /* Pods-FantasyNameGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyNameGenerator.release.xcconfig"; path = "Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		3A38CCBB2617A9CC00384C37 /* FantasyNameGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyNameGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A38CCBD2617A9CC00384C37 /* FantasyNameGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyNameGeneratorTests.swift; sourceTree = "<group>"; };
+		3A38CCBF2617A9CC00384C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A86B60C260B785A00CDAA91 /* FantasyNameGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyNameGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A86B60F260B785A00CDAA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A86B611260B785A00CDAA91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,10 +63,24 @@
 		3A86B63E260B82BF00CDAA91 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3A86B641260B82E300CDAA91 /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
 		3A86B644260B858D00CDAA91 /* RandomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomName.swift; sourceTree = "<group>"; };
+		3A875A80264C189500B9D106 /* FantasyNameGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyNameGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A875A82264C189500B9D106 /* FantasyNameGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyNameGeneratorUITests.swift; sourceTree = "<group>"; };
+		3A875A84264C189500B9D106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADDDDB0261CC7B2005AB3FD /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		3ADDDDB4261CC8DB005AB3FD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		3ADDDDBC261CC8FC005AB3FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3ADDDDC0261CC900005AB3FD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		775E73FF5900F82AD58D525E /* Pods-FantasyNameGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyNameGenerator.debug.xcconfig"; path = "Target Support Files/Pods-FantasyNameGenerator/Pods-FantasyNameGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A38CCB82617A9CC00384C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A86B609260B785A00CDAA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,13 +89,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A875A7D264C189500B9D106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A38CCBC2617A9CC00384C37 /* FantasyNameGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A38CCBD2617A9CC00384C37 /* FantasyNameGeneratorTests.swift */,
+				3A38CCBF2617A9CC00384C37 /* Info.plist */,
+			);
+			path = FantasyNameGeneratorTests;
+			sourceTree = "<group>";
+		};
 		3A86B603260B785A00CDAA91 = {
 			isa = PBXGroup;
 			children = (
 				3A86B60E260B785A00CDAA91 /* FantasyNameGenerator */,
+				3A38CCBC2617A9CC00384C37 /* FantasyNameGeneratorTests */,
+				3A875A81264C189500B9D106 /* FantasyNameGeneratorUITests */,
 				3A86B60D260B785A00CDAA91 /* Products */,
 				C1A9F73EA2CDC55C9A95D53C /* Pods */,
 				B0AC81B04A898C8B70871C83 /* Frameworks */,
@@ -68,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				3A86B60C260B785A00CDAA91 /* FantasyNameGenerator.app */,
+				3A38CCBB2617A9CC00384C37 /* FantasyNameGeneratorTests.xctest */,
+				3A875A80264C189500B9D106 /* FantasyNameGeneratorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +141,7 @@
 				3A86B627260B7CA600CDAA91 /* loading.json */,
 				3A86B61B260B785E00CDAA91 /* Assets.xcassets */,
 				3A86B620260B785E00CDAA91 /* Info.plist */,
+				3ADDDDBD261CC8FC005AB3FD /* Localizable.strings */,
 			);
 			path = FantasyNameGenerator;
 			sourceTree = "<group>";
@@ -112,8 +171,18 @@
 				3A86B63B260B82AC00CDAA91 /* GeneratorViewController.swift */,
 				3A86B63E260B82BF00CDAA91 /* TableViewController.swift */,
 				3A86B641260B82E300CDAA91 /* TableViewCellController.swift */,
+				3ADDDDB0261CC7B2005AB3FD /* StringExtension.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A875A81264C189500B9D106 /* FantasyNameGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A875A82264C189500B9D106 /* FantasyNameGeneratorUITests.swift */,
+				3A875A84264C189500B9D106 /* Info.plist */,
+			);
+			path = FantasyNameGeneratorUITests;
 			sourceTree = "<group>";
 		};
 		B0AC81B04A898C8B70871C83 /* Frameworks */ = {
@@ -136,6 +205,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3A38CCBA2617A9CC00384C37 /* FantasyNameGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A38CCC42617A9CC00384C37 /* Build configuration list for PBXNativeTarget "FantasyNameGeneratorTests" */;
+			buildPhases = (
+				3A38CCB72617A9CC00384C37 /* Sources */,
+				3A38CCB82617A9CC00384C37 /* Frameworks */,
+				3A38CCB92617A9CC00384C37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A38CCC12617A9CC00384C37 /* PBXTargetDependency */,
+			);
+			name = FantasyNameGeneratorTests;
+			productName = FantasyNameGeneratorTests;
+			productReference = 3A38CCBB2617A9CC00384C37 /* FantasyNameGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3A86B60B260B785A00CDAA91 /* FantasyNameGenerator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A86B623260B785E00CDAA91 /* Build configuration list for PBXNativeTarget "FantasyNameGenerator" */;
@@ -155,6 +242,24 @@
 			productReference = 3A86B60C260B785A00CDAA91 /* FantasyNameGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3A875A7F264C189500B9D106 /* FantasyNameGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A875A89264C189500B9D106 /* Build configuration list for PBXNativeTarget "FantasyNameGeneratorUITests" */;
+			buildPhases = (
+				3A875A7C264C189500B9D106 /* Sources */,
+				3A875A7D264C189500B9D106 /* Frameworks */,
+				3A875A7E264C189500B9D106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A875A86264C189500B9D106 /* PBXTargetDependency */,
+			);
+			name = FantasyNameGeneratorUITests;
+			productName = FantasyNameGeneratorUITests;
+			productReference = 3A875A80264C189500B9D106 /* FantasyNameGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,8 +269,16 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					3A38CCBA2617A9CC00384C37 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3A86B60B260B785A00CDAA91;
+					};
 					3A86B60B260B785A00CDAA91 = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					3A875A7F264C189500B9D106 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3A86B60B260B785A00CDAA91;
 					};
 				};
 			};
@@ -176,6 +289,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 3A86B603260B785A00CDAA91;
 			productRefGroup = 3A86B60D260B785A00CDAA91 /* Products */;
@@ -183,19 +297,36 @@
 			projectRoot = "";
 			targets = (
 				3A86B60B260B785A00CDAA91 /* FantasyNameGenerator */,
+				3A38CCBA2617A9CC00384C37 /* FantasyNameGeneratorTests */,
+				3A875A7F264C189500B9D106 /* FantasyNameGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3A38CCB92617A9CC00384C37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A86B60A260B785A00CDAA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADDDDBB261CC8FC005AB3FD /* Localizable.strings in Resources */,
 				3A86B628260B7CA600CDAA91 /* loading.json in Resources */,
 				3A86B61F260B785E00CDAA91 /* LaunchScreen.storyboard in Resources */,
 				3A86B61C260B785E00CDAA91 /* Assets.xcassets in Resources */,
 				3A86B617260B785A00CDAA91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A875A7E264C189500B9D106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +375,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3A38CCB72617A9CC00384C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A38CCBE2617A9CC00384C37 /* FantasyNameGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A86B608260B785A00CDAA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,19 +392,42 @@
 				3A86B63C260B82AC00CDAA91 /* GeneratorViewController.swift in Sources */,
 				3A86B642260B82E300CDAA91 /* TableViewCellController.swift in Sources */,
 				3A86B61A260B785A00CDAA91 /* FantasyNameGenerator.xcdatamodeld in Sources */,
+				3ADDDDB1261CC7B2005AB3FD /* StringExtension.swift in Sources */,
 				3A86B645260B858D00CDAA91 /* RandomName.swift in Sources */,
 				3A86B610260B785A00CDAA91 /* AppDelegate.swift in Sources */,
 				3A86B612260B785A00CDAA91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A875A7C264C189500B9D106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A875A83264C189500B9D106 /* FantasyNameGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A38CCC12617A9CC00384C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A86B60B260B785A00CDAA91 /* FantasyNameGenerator */;
+			targetProxy = 3A38CCC02617A9CC00384C37 /* PBXContainerItemProxy */;
+		};
+		3A875A86264C189500B9D106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A86B60B260B785A00CDAA91 /* FantasyNameGenerator */;
+			targetProxy = 3A875A85264C189500B9D106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3A86B615260B785A00CDAA91 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3A86B616260B785A00CDAA91 /* Base */,
+				3ADDDDB4261CC8DB005AB3FD /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -278,13 +440,63 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		3ADDDDBD261CC8FC005AB3FD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADDDDBC261CC8FC005AB3FD /* en */,
+				3ADDDDC0261CC900005AB3FD /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3A38CCC22617A9CC00384C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASQ8749W3L;
+				INFOPLIST_FILE = FantasyNameGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FantasyNameGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyNameGenerator.app/FantasyNameGenerator";
+			};
+			name = Debug;
+		};
+		3A38CCC32617A9CC00384C37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASQ8749W3L;
+				INFOPLIST_FILE = FantasyNameGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FantasyNameGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyNameGenerator.app/FantasyNameGenerator";
+			};
+			name = Release;
+		};
 		3A86B621260B785E00CDAA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -346,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -439,9 +652,56 @@
 			};
 			name = Release;
 		};
+		3A875A87264C189500B9D106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASQ8749W3L;
+				INFOPLIST_FILE = FantasyNameGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FantasyNameGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyNameGenerator;
+			};
+			name = Debug;
+		};
+		3A875A88264C189500B9D106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASQ8749W3L;
+				INFOPLIST_FILE = FantasyNameGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Interview.FantasyNameGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyNameGenerator;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A38CCC42617A9CC00384C37 /* Build configuration list for PBXNativeTarget "FantasyNameGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A38CCC22617A9CC00384C37 /* Debug */,
+				3A38CCC32617A9CC00384C37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3A86B607260B785A00CDAA91 /* Build configuration list for PBXProject "FantasyNameGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -456,6 +716,15 @@
 			buildConfigurations = (
 				3A86B624260B785E00CDAA91 /* Debug */,
 				3A86B625260B785E00CDAA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A875A89264C189500B9D106 /* Build configuration list for PBXNativeTarget "FantasyNameGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A875A87264C189500B9D106 /* Debug */,
+				3A875A88264C189500B9D106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

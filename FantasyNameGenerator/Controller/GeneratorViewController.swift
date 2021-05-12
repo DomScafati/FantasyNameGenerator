@@ -37,10 +37,11 @@ class GeneratorViewController: UIViewController {
         nameLabel.minimumScaleFactor = 0.5
         nameLabel.adjustsFontSizeToFitWidth = true
         
-        title1 = generatedName.t1Array[r3]
-        title2 = generatedName.t2Array[r4]
+        theLabel.text = "the".localization()
+        title1 = generatedName.t1Array[r3].localization()
+        title2 = generatedName.t2Array[r4].localization()
         fullTitle.text = title1 + "\n" + title2
-        alertName = first + " " + last + " the " + title1 + " " + title2
+        alertName = first + " " + last + " the " + title1.localization() + " " + title2.localization()
 
     }//end nameSetup
     
@@ -69,6 +70,16 @@ class GeneratorViewController: UIViewController {
             print("error populating tableArray, \(error)")
         }
     }
+    
+    func printName(_ name: String){
+        
+        if(name != nil){
+            print (name)
+        }else{
+            print("place holder")
+        }
+        
+    }
     //MARK: -IBOutlets/Actions and Declarations
 
     @IBOutlet var nameLabel: UILabel!
@@ -85,6 +96,7 @@ class GeneratorViewController: UIViewController {
     @IBAction func viewSavedButton(_ sender: UIButton) {
     }
     
+    @IBOutlet var theLabel: UILabel!
     @IBAction func saveButton(_ sender: UIButton) {
         
         let alert = UIAlertController(title: alertName, message: "", preferredStyle: .alert)
@@ -95,7 +107,7 @@ class GeneratorViewController: UIViewController {
             let newName = GeneratedName(context: self.context)
             
             newName.name = alertName
-            print (newName.name ?? "placeholder")
+            printName(alertName)
             saveData()
             loadArray()
         }

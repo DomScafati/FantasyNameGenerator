@@ -195,6 +195,7 @@
                     <connections>
                         <outlet property="fullTitle" destination="qC8-SC-7Vc" id="Jp4-LX-0zn"/>
                         <outlet property="nameLabel" destination="YSQ-G3-pKk" id="5uK-cu-sCh"/>
+                        <outlet property="theLabel" destination="cDS-TB-VhO" id="lHt-Ci-C9m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eiz-WG-JFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
